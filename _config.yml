@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: fastpages
-description: An easy to use blogging platform with support for Jupyter Notebooks.
+title: Poverty and the well-being of NYC citizens based on environmental factors
+description: An environmental social data analysis project for the Social data analysis and visualization course at DTU
 github_username: CsekM8
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "environmental-social-analysis"
@@ -39,8 +39,7 @@ baseurl: "/environmental-social-analysis" # the subpath of your site, e.g. "/blo
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    github: CsekM8/environmental-social-analysis
 
 # Set this to true to get LaTeX math equation support
 use_math: 
@@ -72,8 +71,8 @@ include:
 # This specifies what badges are turned on by default for notebook posts.
 default_badges:
   github: true
-  binder: true
-  colab: true
+  binder: false
+  colab: false
   deepnote: true
 
 # Escape HTML in post descriptions
